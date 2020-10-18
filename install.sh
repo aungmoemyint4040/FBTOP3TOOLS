@@ -8,11 +8,6 @@ apt install wget -y
 apt install php -y
 pip2 install requests
 pip2 install mechanize
+chmod 777 Facebook-Bot.py Facebook-Clone.py Facebook-Hacking.py
 clear
-echo '            Seccssful Install ' | lolcat -a -d 30
-sleep 2
-clear
-echo '         TOOL USARNAME =fatabotol ' | lolcat -a -d 10
-echo '         TOOL PASSWORD =fatabotol ' | lolcat -a -d 10
-
-
+ls
