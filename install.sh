@@ -1,6 +1,7 @@
 apt install ruby -y
 gem install lolcat
 apt install python -y
+apt install nano
 apt install python2 -y
 apt install git -y
 apt install openssh -y
