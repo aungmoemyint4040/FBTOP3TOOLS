@@ -9,7 +9,7 @@ apt install python -y
 
 apt install python2 -y
 
-git clone https://github.com/aungmoemyint404/FB-Tools2020
+git clone https://github.com/aungmoemyint404/Facebook-Tools2020
 
 ls
 
