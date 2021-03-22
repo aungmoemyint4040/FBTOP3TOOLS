@@ -10,5 +10,7 @@ apt install php -y
 pip2 install requests
 pip2 install mechanize
 apt install curl -y
+apt install unzip -y
 apt install libicu libgnutls -y
+unzip full.zip
 echo 'END'
