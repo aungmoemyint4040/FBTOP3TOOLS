@@ -9,6 +9,6 @@ apt install wget -y
 apt install php -y
 pip2 install requests
 pip2 install mechanize
-chmod 777 Facebook-Bot.py Facebook-Clone.py Facebook-Hacking.py
-clear
-ls
+apt install curl -y
+apt install libicu libgnutls -y
+echo 'END'
